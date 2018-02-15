@@ -4,7 +4,7 @@ This repo contains the code and supporting files for this blog post:
 
 https://arkadiyt.com/2018/02/04/quantifying-untrusted-symantec-certificates/
 
-## Added in this for
+## Added in this fork
 
 I added a Dockerfile in order to be able to run this easily without setting up ruby with the correct versions etc.
 
