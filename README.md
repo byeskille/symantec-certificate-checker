@@ -11,7 +11,7 @@ I added a Dockerfile in order to be able to run this easily without setting up r
 To build and run this container locally, try a command like:
 ```
 docker build -t symantec-certificate-checker .
-docker run -v yourlocaldatadir-withdomainscsv:/usr/src/app/data symantec-certificate-checker /bin/bash/
+docker run -it -v yourlocaldatadir-withdomainscsv:/usr/src/app/data symantec-certificate-checker /bin/bash
 ```
 
 Then run within the directory /usr/src/app inside container:
